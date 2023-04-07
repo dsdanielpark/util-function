@@ -1,4 +1,10 @@
 # utilfunc
+![Util-Func](https://img.shields.io/badge/pypi-utilfunc-blue)
+![Pypi Version](https://img.shields.io/pypi/v/utilfunc.svg)
+[![Contributor Covenant](https://img.shields.io/badge/contributor%20covenant-v2.0%20adopted-black.svg)](code_of_conduct.md)
+[![Python Version](https://img.shields.io/badge/python-3.6%2C3.7%2C3.8-black.svg)](code_of_conduct.md)
+![Code convention](https://img.shields.io/badge/code%20convention-pep8-black)
+
 The Python package utilfunc wraps and distributes useful functions in an easy-to-use way. We have collected functions that are simpler in function than many distributed Python packages or whose category is ambiguous.
 
 <br>
@@ -27,10 +33,13 @@ Please create a pull request for any function that is useful and simple to reuse
 2. Write brief explanations and examples in the [`doc folder`](https://github.com/DSDanielPark/utilfunc/tree/main/doc)
 3. Write a one-line code example in README.md
 5. Make a Pull Request
-Please refer to the find_path function in path_finder.py.
+<br>
+
+Please refer to the `find_path` function in [`path_finder.py`](https://github.com/DSDanielPark/utilfunc/blob/main/utifunc/path_finder.py).
 
 <br>
 
 # Notice
 - This repo goes through a simple QA process, there are no major refactoring plans, and it's not a planned project, so it's in alpha.
 - If there is a reference, please list it at the top of each Python file.
+- Coverage of Python versions is subject to change. However, the code formatting is changed to black during the QA process.
