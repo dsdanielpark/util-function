@@ -1,7 +1,7 @@
 import os
 
 
-def find_path(top_tree_path:str, type: str, include_word:str) -> list:
+def find_path(top_tree_path: str, type: str, include_word: str) -> list:
     """Find the path of a file or folder.
 
     :param top_tree_path: Enter the path to the top-level folder from which to start browsing files.
@@ -17,14 +17,14 @@ def find_path(top_tree_path:str, type: str, include_word:str) -> list:
     if top_tree_path == None:
         top_tree_path = os.getcwd()
 
-    if type=='file':
+    if type == "file":
         for (root, directories, files) in os.walk(top_tree_path):
             for file in files:
                 if include_word in file:
                     file_path = os.path.join(root, file)
                     pathes.append(file_path)
 
-    elif type=='folder':
+    elif type == "folder":
         for (root, directories, files) in os.walk(top_tree_path):
             for dir in directories:
                 if include_word in dir:
