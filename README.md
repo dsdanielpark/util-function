@@ -1,4 +1,4 @@
-# util-functions
+# util-function
 ![Util-Func](https://img.shields.io/badge/pypi-utilfunction-blue)
 ![Pypi Version](https://img.shields.io/pypi/v/utilfunction.svg)
 [![Contributor Covenant](https://img.shields.io/badge/contributor%20covenant-v2.0%20adopted-black.svg)](code_of_conduct.md)
