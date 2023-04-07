@@ -27,3 +27,10 @@ Please create a pull request for any function that is useful and simple to reuse
 2. Write brief explanations and examples in the [`doc folder`]()
 3. Write a one-line code example in README.md
 5. Make a Pull Request
+
+
+<br>
+
+# Notice
+- This repo goes through a simple QA process, there are no major refactoring plans, and it's not a planned project, so it's in alpha.
+- If there is a reference, please list it at the top of each Python file.
