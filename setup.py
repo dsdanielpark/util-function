@@ -37,7 +37,7 @@ setup(
     install_requires=[],
     keywords="Utils, Utility, Preprocessing, Analysis",
     classifiers=[
-        "Development Status :: 3 Alpha",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
         "Natural Language :: English",
         "Programming Language :: Python",
