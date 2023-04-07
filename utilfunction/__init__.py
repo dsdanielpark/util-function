@@ -1,4 +1,4 @@
-from utilfunctions.path_finder import find_path
+from utilfunction.path_finder import find_path
 
 
 # coding=utf-8
