@@ -18,5 +18,5 @@ from utilfunction.path_finder import find_path
 
 __all__ = ["find_path"]
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "MinWoo Park <parkminwoo1991@gmail.com>"
