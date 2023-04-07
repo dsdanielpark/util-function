@@ -1,4 +1,5 @@
 from utilfunction.path_finder import find_path
+from utilfunction.astyper import col_convert
 
 
 # coding=utf-8
@@ -16,7 +17,7 @@ from utilfunction.path_finder import find_path
 # See the License for the specific language governing permissions and
 # # limitations under the License.
 
-__all__ = ["find_path"]
+__all__ = ["find_path", "col_convert"]
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "MinWoo Park <parkminwoo1991@gmail.com>"

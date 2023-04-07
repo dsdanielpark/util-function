@@ -25,7 +25,7 @@ version = get_version()
 
 setup(
     name="utilfunction",
-    version="0.1.1",
+    version="0.1.2",
     author="parkminwoo",
     author_email="parkminwoo1991@gmail.com",
     description="The Python package utilfunction wraps and distributes useful functions in an easy-to-use way.",
