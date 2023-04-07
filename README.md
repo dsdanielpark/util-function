@@ -31,7 +31,7 @@ Restores a column whose array is stored as a string type back to an array type.
 ```python
 from utilfunction import col_converter
 
-nii_file_list = col_converter(df, "embedding_arrays")
+df_has_converted_col = col_converter(df, "embedding_arrays")
 ```
 
 <br>
