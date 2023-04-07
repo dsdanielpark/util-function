@@ -17,11 +17,21 @@ pip install utilfunction
 <br>
 
 # Features
-`path_finder.py`: Find the path of a file or folder. 
+`path_finder.py` - function: find_path <br>
+ Find the path of a file or folder. 
 ```python
 from utilfunction import find_path
 
 nii_file_list = find_path('./home', 'file', 'mask.nii.gz')
+```
+
+
+`astyper.py` - function: col_converter <br>
+Restores a column whose array is stored as a string type back to an array type.
+```python
+from utilfunction import col_converter
+
+nii_file_list = col_converter(df, "embedding_arrays")
 ```
 
 <br>
