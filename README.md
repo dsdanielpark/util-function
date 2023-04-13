@@ -26,7 +26,7 @@ from utilfunction import find_path
 
 nii_file_list = find_path('./home', 'file', 'mask.nii.gz')
 ```
-
+<br>
 
 `astyper.py` - function: col_converter <br>
 Restores a column whose array is stored as a string type back to an array type.
@@ -36,7 +36,7 @@ from utilfunction import col_convert
 df_has_converted_col = col_convert(df, "embedding_arrays")
 ```
 
-
+<br>
 
 `beep.py` - function: beep <br>
 Make beep
