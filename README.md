@@ -34,6 +34,20 @@ from utilfunction import col_convert
 df_has_converted_col = col_convert(df, "embedding_arrays")
 ```
 
+
+
+`beep.py` - function: beep <br>
+Make beep
+```python
+from utilfunction import beep
+
+beep()
+
+sec=10
+feq=800
+beep(sec, feq)
+```
+
 <br>
 
 # How to Contribute

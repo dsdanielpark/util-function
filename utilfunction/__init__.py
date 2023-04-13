@@ -1,7 +1,3 @@
-from utilfunction.path_finder import find_path
-from utilfunction.astyper import col_convert
-
-
 # coding=utf-8
 # Copyright 2023 parkminwoo Authors.
 #
@@ -17,7 +13,13 @@ from utilfunction.astyper import col_convert
 # See the License for the specific language governing permissions and
 # # limitations under the License.
 
-__all__ = ["find_path", "col_convert"]
 
-__version__ = "0.1.2"
+from utilfunction.path_finder import find_path
+from utilfunction.astyper import col_convert
+from utilfunction.beep import beep
+
+
+__all__ = ["find_path", "col_convert", "beep"]
+
+__version__ = "0.1.3"
 __author__ = "MinWoo Park <parkminwoo1991@gmail.com>"
