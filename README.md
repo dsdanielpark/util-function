@@ -1,4 +1,6 @@
-Development Status :: 3 - Alpha
+Development Status :: 3 - Alpha <br>
+*Copyright (c) 2023 MinWoo Park*
+<br>
 
 # util-function
 ![Util-Func](https://img.shields.io/badge/pypi-utilfunction-orange)
