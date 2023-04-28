@@ -67,6 +67,13 @@ Please refer to the `find_path` function in [`path_finder.py`](https://github.co
 
 <br>
 
+- Styled with black `black .`
+- Lnted with pylint `pylint --rcfile=setup.cfg util-function/`
+- Type-checked with mypy `mypy util-function/`
+- Pass the pytest unit tests `pytest`
+
+
+
 # Notice
 - This repo goes through a simple QA process, there are no major refactoring plans, and it's not a planned project, so it's in alpha.
 - If there is a reference, please list it at the top of each Python file.
