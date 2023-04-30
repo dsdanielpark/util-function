@@ -14,7 +14,7 @@ def bib_to_markdown(bib_field_dict: dict, title_key: str) -> list:
     md_body = []
     for k, v in bib_field_dict.items():
         if k ==title_key:
-            md_body.append(f'## {k.upper()}: {v} \n')
+            md_body.append(f'\n## {k.upper()}: {v} \n')
         else:
             md_body.append(f'- **{k}:** {v} \n')
     return md_body
