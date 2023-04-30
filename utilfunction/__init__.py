@@ -19,7 +19,7 @@ from utilfunction.astyper import col_convert
 from utilfunction.beep import beep
 
 
-__all__ = ["find_path", "col_convert", "beep"]
+__all__ = ["find_path", "col_convert", "beep", "bib2md", "bib_to_markdown"]
 
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 __author__ = "MinWoo Park <parkminwoo1991@gmail.com>"
