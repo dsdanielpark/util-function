@@ -54,6 +54,21 @@ beep(sec, feq)
 
 <br>
 
+
+`bib2md.py` - function: bib2md <br>
+Convert `bib file` to `markdown file`  
+```python
+from utilfunction import bib2md
+
+bib_path = './sample_data/attention_based.bib'
+save_path = './sample_data/attention_based.md'
+title_key = 'title'
+
+bib2md(bib_path, title_key, save_path)
+
+```
+
+
 # How to Contribute
 Please create a pull request for any function that is useful and simple to reuse. Create a function, and write a tutorial with the same name as the function in the doc folder. Any snippet that you are comfortable with and use often will do. However, some contents may be revised and adjusted later for convenience.
 
