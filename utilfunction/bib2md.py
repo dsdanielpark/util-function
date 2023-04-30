@@ -19,7 +19,7 @@ def bib_to_markdown(bib_field_dict: dict, title_key: str) -> list:
             md_body.append(f'- **{k}:** {v} \n')
     return md_body
 
-def bib2md(bib_path: str, title_key: str, save_md_path: str) -> list:
+def convert_bib2md(bib_path: str, title_key: str, save_md_path: str) -> list:
     """Convert bib file to markdown format
 
     :param bib_path: Input BIB file path.

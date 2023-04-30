@@ -17,9 +17,8 @@
 from utilfunction.path_finder import find_path
 from utilfunction.astyper import col_convert
 from utilfunction.beep import beep
+from utilfunction.bib2md import convert_bib2md, bib_to_markdown
 
-
-__all__ = ["find_path", "col_convert", "beep", "bib2md", "bib_to_markdown"]
-
-__version__ = "0.1.4"
+__all__ = ["find_path", "col_convert", "beep", "convert_bib2md", "bib_to_markdown"]
+__version__ = "0.1.6"
 __author__ = "MinWoo Park <parkminwoo1991@gmail.com>"
