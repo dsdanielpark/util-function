@@ -1,11 +1,12 @@
-
 import numpy as np
 
+
 def convert(x):
-    x = x.strip()  
-    x = x[1:-1]   
-    x = np.fromstring(x, sep=' ') 
+    x = x.strip()
+    x = x[1:-1]
+    x = np.fromstring(x, sep=" ")
     return x
+
 
 def col_convert(df, columns):
     """Restores a column whose array is stored as a string type back to an array type.
@@ -23,6 +24,6 @@ def col_convert(df, columns):
     elif type(columns) == str:
         df[col] = df[col].apply(convert)
     else:
-        print('Only str or list are allowed as column arguments.')
+        print("Only str or list are allowed as column arguments.")
 
     return df

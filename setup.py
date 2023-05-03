@@ -34,7 +34,7 @@ setup(
     url="https://github.com/DSDanielPark/utilfunction",
     packages=find_packages(),
     python_requires=">=3.6",
-    install_requires=["pandas", "numpy", "pybtex", ],
+    install_requires=["pandas", "numpy", "pybtex",],
     keywords="Utils, Utility, Preprocessing, Analysis",
     classifiers=[
         "Development Status :: 3 - Alpha",

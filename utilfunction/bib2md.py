@@ -13,11 +13,12 @@ def bib_to_markdown(bib_field_dict: dict, title_key: str) -> list:
     """
     md_body = []
     for k, v in bib_field_dict.items():
-        if k==title_key:
-            md_body.append(f'\n### {k.upper()}: {v} \n')
+        if k == title_key:
+            md_body.append(f"\n### {k.upper()}: {v} \n")
         else:
-            md_body.append(f'- **{k}:** {v} \n')
+            md_body.append(f"- **{k}:** {v} \n")
     return md_body
+
 
 def convert_bib2md(bib_path: str, title_key: str, save_md_path: str) -> list:
     """Convert bib file to markdown format
@@ -36,11 +37,11 @@ def convert_bib2md(bib_path: str, title_key: str, save_md_path: str) -> list:
     entries_dict = bib_data.entries
 
     md_total_body = []
-    for _,v in entries_dict.items():
+    for _, v in entries_dict.items():
         bib_field_dict = dict(v.fields)
         md_total_body += bib_to_markdown(bib_field_dict, title_key)
 
-    with open(save_md_path, 'w') as f:
+    with open(save_md_path, "w") as f:
         f.write("".join(md_total_body))
 
     return md_total_body
